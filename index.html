@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button id="startBtn" onclick="startSimulation()">START</button>
+    <button id="stopBtn" onclick="stopSimulation()">STOP</button>
+    <label>
+        Fire probability
+        <input id="fireProbability" type="range" min="0" max="1" step="0.1" value="0.2" onchange="onChange()" />
+        <input id="fireProbabilityText" readonly style="width: 30px;" />
+    </label>
+    <label>
+        Moore (checked)/VonNeuman (unchecked)
+        <input id="neighborhood" type="checkbox" onchange="onNeighborhoodChange()" />
+    </label>
+    <canvas id="canvas"></canvas>
+    <script src="script.js"></script>
+    <script>
+
+    </script>
+</body>
+
+</html>
