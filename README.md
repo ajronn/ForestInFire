@@ -3,6 +3,7 @@
 ### Description
 
 Project of a cellular automaton simulating a forest fire with a lake in mind.
+![Gif](fire1.gif)
 
 ### Run
 
