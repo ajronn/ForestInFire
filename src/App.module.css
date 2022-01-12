@@ -1,0 +1,54 @@
+.menu {
+    margin: 10px;
+    position: fixed;
+    bottom: 0;
+    background: red;
+    width: 310px;
+    min-height: 30px;
+}
+
+.menucontainer {
+    position: relative;
+    color: white;
+}
+
+.icon {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    color: black;
+}
+
+label {
+    margin-left: 10px;
+}
+
+button {
+    margin-left: 10px;
+}
+
+.active {
+    background: gray;
+}
+
+input {
+    margin-left: 10px;
+}
+
+input[type="text"] {
+    width: 30px;
+}
+
+label {
+    padding: 5px;
+    display: table;
+}
