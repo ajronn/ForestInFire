@@ -7,11 +7,11 @@ Project of a cellular automaton simulating a forest fire with a lake in mind.
 
 ### Run
 
-Simple way
+#### Simple way
 
 [https://ajronn.github.io/](https://ajronn.github.io/)
 
-Extended way
+#### Extended way
 
 You have to install Node.js [https://nodejs.org/en/](https://nodejs.org/en/)
 
